@@ -11,9 +11,9 @@ export const Footer = () => {
 
 
   return (
-    <Footer className='footer'>
+    <footer className='footer'>
         <p>Copyright &copy; 2022 Pizza App</p>
-        <p>{isOpen ? <Order closedHour={closedHour} openHour={operHour}/> : 'We are closed'}</p>
-        </Footer>
+        {isOpen ? <Order closedHour={closedHour} openHour={operHour}/> : <p>We are closed</p>}
+        </footer>
   )
 }

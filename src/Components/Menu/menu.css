@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+  
+  .menu h2 {
+    display: inline-block;
+    padding: 1rem 0;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  .menu > p {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.6;
+    width: 80%;
+  }
+  .pizzas {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
