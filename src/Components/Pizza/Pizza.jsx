@@ -4,7 +4,7 @@ export const Pizza = ({item}) => {
  console.log(item.PhotoName);
   return (
     <li className={`pizza ${item.soldOut && 'soldOut'}`}>
-    <img src={item.PhotoName} alt={item.name}/>
+    <img src={item.photoName} alt={item.name}/>
     <div>
      <h3>
        {item.name}
