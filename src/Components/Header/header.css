@@ -1,0 +1,9 @@
+.header{
+    align-self:stretch;
+  }
+  
+  .header h1 {
+    text-decoration: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+  }
